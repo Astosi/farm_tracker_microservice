@@ -52,9 +52,9 @@
 - Go to demo/src/main/resources/application.properties
 - Connect the database
 
-spring.datasource.url=jdbc:sqlserver://"name-of-your-pc"\\SQLEXPRESS;databaseName="database-name"
-spring.datasource.username="user-you-created"
-spring.datasource.password="password"
+-spring.datasource.url=jdbc:sqlserver://"name-of-your-pc"\\SQLEXPRESS;databaseName="database-name"
+-spring.datasource.username="user-you-created"
+-spring.datasource.password="password"
 
 #### Notes
 - Ensure that sqlserver browser is running(you can check in local services on Windows)
