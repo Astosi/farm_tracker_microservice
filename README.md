@@ -2,8 +2,8 @@
 - [See Project Page](https://github.com/users/Sharaido/projects/4)
 
 ## Database
-- [See Database ER Diagram](https://github.com/Sharaido/FarmTracker-services-java/DB/plantTypes.png)
-- [See Database Script (MSSQL)](https://github.com/Sharaido/FarmTracker-services-java/DB/new_table_script.txt)
+- [See Database ER Diagram](https://github.com/Sharaido/FarmTracker-services-java/tree/main/DB/plantTypes.png)
+- [See Database Script (MSSQL)](https://github.com/Sharaido/FarmTracker-services-java/tree/main/DB/new_table_script.txt)
 
 ## Setup
 - [Setup](#Setup)
