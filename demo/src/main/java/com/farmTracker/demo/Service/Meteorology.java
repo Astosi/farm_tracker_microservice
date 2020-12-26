@@ -16,8 +16,8 @@ public class Meteorology {
     private String latitude;
     private Calendar time;
     private Calendar time1;
-    ApiFactory factory;
-    Converter converter;
+    private ApiFactory factory;
+    private Converter converter;
     JSONObject myObj;
 
     public Meteorology(String longitude, String latitude , String time) {
@@ -302,8 +302,8 @@ public class Meteorology {
         Map<String, String> SunriseSunsetTime = new HashMap<>();
         int numberOfDays = 5;
 
-        String startDate = converter.subDays(time1,1);     //start from a day before
-        String endDate = converter.subDays(time1, numberOfDays);
+        String endDate = converter.subDays(time1,1);     //start from a day before
+        String startDate = converter.subDays(time1, numberOfDays);
 
         myObj = factory.getApi("meteorology" ,startDate, endDate);
         JSONArray jsonArray = myObj.getJSONArray("forecastday");
