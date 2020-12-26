@@ -1,0 +1,13 @@
+use [farmTracker]
+
+Insert Into plantTypes values(NEWID(), 
+'pepper' ,
+'En uygun gübreleme tavsiyesinin toprak analizi ile tespit edilmesi gerekir. Biber tarımında gübre tavsiyesi kg/da saf madde olarak yapılır. Biber bitkisi, besin maddesi uygulamalarına çok iyi tepki verir noksanlığında ise verim kayıpları olur. İyi bir biber tarımı için Azot(N): 15 kg/da, Fosfor(P): 10 kg/da olacak şekilde gübreleme yapılır.',
+ 4.0 ,
+ 10,
+ 60.0,
+ 4.0,
+ 40.0,
+ 2,
+ 4,
+ 90)
